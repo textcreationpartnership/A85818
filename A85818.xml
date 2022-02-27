@@ -1,0 +1,571 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A true description of Carolina</title>
+            <author>Gascoyne, Joel, b. 1650.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 17 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A85818</idno>
+            <idno type="STC">Wing G284</idno>
+            <idno type="STC">ESTC R232077</idno>
+            <idno type="EEBO-CITATION">99900090</idno>
+            <idno type="PROQUEST">99900090</idno>
+            <idno type="VID">137351</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A85818)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 137351)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2516:1)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A true description of Carolina</title>
+                  <author>Gascoyne, Joel, b. 1650.</author>
+               </titleStmt>
+               <extent>4 sheets (versos blank)   </extent>
+               <publicationStmt>
+                  <publisher>printed for Joel Gascoin at the Plat near Wapping old Stairs, and R. [Greene] at the Rose and Crown in Budg-Row,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>[1682]]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>By Joel Gascoyne.</note>
+                  <note>Imprint from colophon.</note>
+                  <note>Printer's name and year of publication from Wing CD-ROM, 1996.</note>
+                  <note>RPJCB copy, reel 2516, is cropped affecting text and colophon.</note>
+                  <note>Reproduction of original in the John Carter Brown Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>North Carolina --  Description and travel --  Early works to 1800.</term>
+               <term>South Carolina --  Description and travel --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-02</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2013-02</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb facs="tcp:137351:1"/>
+            <head>A true DESCRIPTION OF CAROLINA.</head>
+            <p>
+               <hi>CArolina</hi> is part of the Main in <hi>America,</hi> and ſo much celebrated by Monſieur <hi>Laudonere,</hi> that he entitles it <hi>Florida,</hi> becauſe of her florid, and fragrant Fields, imbelliſh'd with Flowers, that perfume the Air: whoſe ſweet Scitu<g ref="char:EOLhyphen"/>ations, by reaſon of moſt delicious and pleaſant Meadows (and flouriſhing Savana's) adorn the Continent; and whoſe benevolent Breaſt ſends daily Supplies to the Planter, and hourly Relief to the poor and neceſſitous Native: whoſe ſpacious Arms (as if circulating the Ocean) proclaims her Shores San<g ref="char:EOLhyphen"/>ctuary to diſtreſſed Mariners; and a generous protection to deplorable Seamen, that ſollicit refreſhment from her repleniſh'd Harbours, which extend themſelves ſouthward to the River St. <hi>Mattheo,</hi> ſo dilates to <hi>Luck Iſland,</hi> near <hi>Roanoack</hi> on the promontories of <hi>Virginia,</hi> in thirty ſix degrees North Latitude (now called <hi>Albemarle</hi>) a large and ſpacious ſettlement conſiſting of ſome two or three thouſand Inhabitants, upon a fertil Soil.</p>
+            <p>But the late and flouriſhing ſettlement lies yet more Southerly, in and about 32 Degrees, odd Minutes; parallel with <hi>Jeruſalem</hi> in <hi>Paleſtine:</hi> and equals the heighth of <hi>Bermudos,</hi> upon the navigable Rivers of <hi>Cooper,</hi> and <hi>Aſhly;</hi> formerly known by the Names of <hi>Wando</hi> and <hi>Kiawah.</hi>
+            </p>
+            <p>This is that famous <hi>Carolina,</hi> which his Majeſty the King of <hi>Great Britain</hi> has united to his Imperial Crown, and by his Royal Grant eſtabliſhed it a Province; and has dignified it a Principality: which by conſent amongſt the Lords is transferr'd to the eldeſt Proprietor. But the Proprietors are eight in number, and their Names and Titles as followeth. Lord Chancellor <hi>Clarendon,</hi> Lord Duke <hi>Albemarle,</hi> Earl of <hi>Craven,</hi> Lord <hi>Anthony Aſhly Cooper</hi> Earl of <hi>Shaftsbury, John</hi> Lord <hi>Berkley,</hi> Sir <hi>George Carteret,</hi> Sir <hi>William Berkley,</hi> and Sir <hi>John Colleton</hi> Kt. and Bar. Theſe are the Lords Proprietors, whoſe Laws and Government (becauſe to pro<g ref="char:EOLhyphen"/>ceed in my Deſcription) is ſuſpended till farther Opportunity preſents to uſher them in.</p>
+            <p>The Heavens ſhine upon this famous Country the ſoveraign Ray of health; and has bleſt it with a ſerene Air, and a lofty Skie, that defends it from noxious Infection; nor is there any known Diſtemper incident to the Inhabitant whereby to terrify and affright him; who for the moſt part lives by the Law of Plenty, extended to the utmoſt limits of Sanity.</p>
+            <p>Several Families have tranſported themſelves from the Ports of <hi>Barbadoes,</hi> but what from the reſt of the <hi>Caribbies,</hi> I know not: yet am credibly inform'd (and from very good hands) that divers are gone, and going from thence: as alſo from <hi>New-Providence, Bermudus, New-York, New-Jerſey, New-England, Long-Iſland De-la-ware, Maryland</hi> and <hi>Virginia;</hi> but great num<g ref="char:EOLhyphen"/>bers
+<pb facs="tcp:137351:2"/>from <hi>Scotland,</hi> and ſeveral from the borders of <hi>Ireland:</hi> beſides divers good Ships, with ſome eminent Families that are lately gone off from the Kingdom of <hi>England.</hi> Moreover, its a ſalubrious Air to the ſick, and diſeaſed; and a generous retirement to neceſſitous, and ab<g ref="char:EOLhyphen"/>ject Families; as alſo the aſſurance of ſuch as ſtudy to be rich: Engins ſtrong enough one would think to induce Mankind to hope the proſperity of this famous Settlement.</p>
+            <p>But the ſettlement of <hi>Albemarle</hi> (otherwiſe called <hi>Roanoak</hi>) preſents firſt to our view; and is the oldeſt, and remoteſt Northern County in the fair Province of <hi>Carolina;</hi> ſcituated about 35 Degrees, and odd Minutes North Latitude: from whoſe repleniſhed Meadows (as alſo from the more Southern Inhabitants) as good Beef, and Pork is ſaved, and ſent off to <hi>Barbadoes,</hi> and other the <hi>Charibbee</hi> Iſlands, as Art and Induſtry can husband.</p>
+            <p>Now <hi>Aſhley</hi> County is yet more ſouthward, and lies ſcituated 32 degrees, 45 minutes; where the Setlers and Inhabitants toil not in Summer to accommodate themſelves with Win<g ref="char:EOLhyphen"/>ter's Proviſion: becauſe hitherto they have conſidered it uſeleſs, and altogether unneceſſary for the Planter to employ his Hands, and Strength, where Nature ſo liberally ſtocks them with Herbage: and the Winter, becauſe ſo ſoftned with a moderate Air, repreſents it much of the caſt and temperament with our <hi>March</hi> in <hi>England;</hi> and that's as much as to conſider it the relique only of a mild and ſhort Winter, or rather the ſurprizal of an approaching Spring, that breaths forth to iniciate the Summer. And here it is that their Ships are built, and dreſt up by <hi>Bermudian</hi> hands, the moſt approved Mariners; and a general Errour if not the beſt navigating Ships in <hi>America.</hi>
+            </p>
+            <p>And now by way of Advice, the firſt thing requiſit and neceſſary for the Setler to embrace, is to fell Timber, and to clear the Ground (which is reaſonably undertaken, as by an <hi>Ad<g ref="char:EOLhyphen"/>vertiſement</hi> in the laſt Paragraph) as ſome already have done, and planted <hi>Potatoes,</hi> the <hi>Caſ<g ref="char:EOLhyphen"/>ſaida Root, Yams, Eddies, Carrots, Cabbidges, Onyons, Turnips, Parſnips, Shelots,</hi> (but they grow naturally there) <hi>Collyflowers, Artichokes, Musk-Melons,</hi> and <hi>Water-Melons;</hi> beſides <hi>Wormwood, Nep, Scurvy-graſs, Rue, Meadſweet, Trefoil, Cinquefoil, Elecampane, (Annis, Cububs,</hi> and <hi>Car<g ref="char:EOLhyphen"/>damome Seeds) Radiſhes,</hi> and <hi>Horſe-Radiſhes, Mellelot, Angellica, Arch-Angel, Roſemary, Thime, Lettice, Spinage, Sweetmarjarum,</hi> Summer, and Winter-<hi>Savory, Endive, Succory, Hopps, Water-Creſſes, Cena,</hi> and <hi>China-Root,</hi> with other <hi>Druggs,</hi> and <hi>Saxafrage, Saſſafras,</hi> and <hi>Saſſaperrilla:</hi> beſides divers other Vegitables without number.</p>
+            <p>Moreover, all ſorts of <hi>Engliſh</hi> Grane, as <hi>Wheat, Rye, Barley, Peas, Beans, Oates, Lentills, Fitches,</hi> and <hi>Indian</hi> Corn, with other <hi>European</hi> and <hi>American</hi> Roots, and Plants; which <hi>Carolina</hi> beyond diſpute with ſmall induſtry will produce as large, and as good as the World has.</p>
+            <p>The next thing worthy our conſideration, is their plentiful Eating; becauſe having their accommodation very cheap within themſelves; where Beef two years ſince was ſold at 12 <hi>s.</hi> a 100, and Pork at the rate of 16 <hi>s.</hi> So that Cattel (you may read) begins to be plentiful, and Hoggs of a prodigious encreaſe. And moſt of thoſe Cattel very fair, and large-headed Beaſts, now grazing up and down in beautiful <hi>Savana</hi>'s, little or nothing inferiour to our <hi>Engliſh</hi> Meadows: there are ſeveral induſtrious Setlers, and Planters, that proſper very well, tho not having much to begin with.</p>
+            <p>Moreover, there are Barrows (which by reaſon of the ſuperabundant plenty of Maſt, and Roots in thoſe parts) that ſome have weighed three or four hundred weight a-piece, and ſuch had the Lady <hi>Yeomans,</hi> as I am credibly informed, who had 400 Hoggs in a Herd, and 500 Turkies in a Drove; beſides Dunghil Fowls too numerous to relate without ſuſpition. And which Plantation of hers, conſiſting of 1500 Acres, was by the induſtry of one Mr. <hi>James Moore</hi> (an <hi>Engliſh</hi> Gentleman) cleared from Charge in ſome three years time, and with the
+<pb facs="tcp:137351:3"/>natural produce of the Country only; which amplifies the great fertility of the <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>gether with the encreaſe of Beef, and Pork, which if well ſaved, and ſent off to <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> (as ſome has already been ſent to <hi>Barbadoes</hi>) muſt of neceſſity bring in conſider<gap reason="illegible" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+            </p>
+            <p>Upon Honey ſome have ſtrong Inclinations, when becauſe having ſuch variety (and Bloſſoms) that invites to accommodate the Laborious Bee; where, as b<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> they become ſo prolifick, as frequently to ſwarm four times in a year; and ſuch <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>creaſe from one ſingle Hive, brought over from <hi>Bermudus (tho half of them wer<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </hi> that within leſs than two full years, Captain <hi>Morris Matthews (an induſtrious Ge<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> manages Lieutenant Colonel</hi> James Colleton's <hi>Plantation</hi>) had a produce of more th<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> beſides a <hi>Preſentation</hi> made to the <hi>Governour</hi> and others.</p>
+            <p>The <hi>Indian Natives</hi> get a ſweet Oil out of the <hi>Hickery Nutt,</hi> which is much <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of our <hi>Engliſh Walnut,</hi> but not ſo racy, nor the Kernel ſo plump and pleaſant; <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> they ſell for Beads and Trifles of little or no value: which Oil may be much mo<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> and ſubſtituted in lieu of <hi>Oil Olives.</hi> So that the ſtaple Commodities of <hi>Ca<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap> Wine, Oil, Silk, Hides, Wool, Tallow, Honey, Bees-Wex, Tobacco, Hemp, Flax, Linn<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> Cloth, Pitch, Tar, Cordage,</hi> and <hi>Maſts for Shipping.</hi>
+            </p>
+            <p>Here are very tall, large, and ſtreight Timber-Trees (<hi>the World has not better <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </hi> the <hi>Aſh;</hi> the <hi>White,</hi> the <hi>Red</hi> and the <hi>Live Oak:</hi> but the <hi>Cyprus Tree</hi> grows to an <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>neſs, as alſo the <hi>Walnut,</hi> and <hi>Hickery</hi> or <hi>American Walnut</hi> already expreſt. <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ſtately and tall <hi>Cedars,</hi> both White, and Red, that cover the Earth. And the <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>Aſp,</hi> and <hi>Poplar,</hi> that grow to an incredible magnitude: beſides ſeveral other a<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> that I cannot at preſent remember. There is alſo the <hi>Birch,</hi> the <hi>Beech,</hi> the <hi>Wil<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> the <hi>Alder,</hi> the <hi>Elm,</hi> the <hi>Sicamore,</hi> the <hi>Mulberry,</hi> and the <hi>Figg-Tree;</hi> but they <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>where: and the <hi>Maligatoon,</hi> and <hi>Peach</hi> is common, without Cultivation; yet no <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Fruit is obſerved in <hi>Europe</hi> than what naturally grows wild in <hi>America. Vines <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> themſelves to inamour the Trees in every Wood: and <hi>Strawberries</hi> ſtrew themſ<gap reason="illegible" extent="5 letters">
+                  <desc>•••••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Fields. But <hi>Violets,</hi> I had almoſt forgot them, becauſe the Inhabitants depreſs th<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ing them under foot; yet they, with various other Flowers, perfume the Air. <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſprout up ſo plentifully in every Plantation, that the Planters themſelves are th<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> with to make Fences. And where all other Roots and Fruit-Trees thrive to <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the <hi>Orange Trees, Limon Trees,</hi> and <hi>China Orange Trees, Quince Trees, Cherry Trees <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Pear Trees,</hi> and <hi>Prickle Pears,</hi> that bear twice a year. Then there's the <hi>Almon<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> 
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> over to plant, and <hi>Tamarinds, Eldern, Goosberries, Curran Trees, Raſsberries, Pome<g ref="char:EOLhyphen"/>granats;</hi> and ſome ſay <hi>Plantins,</hi> and <hi>Bonano's.</hi> Certainly this Climate is deſtin<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the Native <hi>American,</hi> and with the Bleſſings of Heaven to refreſh the ſolicitous <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+            </p>
+            <p>This I ſhould think (with other Advantages) were enough to compenſate the <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> and Induſtry of the Setlers, beſides the natural propenſity of Love the Natives h<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Souls liv'd only in the Boſom of the <hi>Engliſh</hi> by natural Inſtinct, becauſe when to <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> themſelves and ſervices to fiſh, and hunt their Game for a Trifle; to fell Tim<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Corn, and to gather in their Crop: as alſo to Pilot, and convey them from o<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to another. So that in many reſpects, the ſimple poverty of theſe indigent Nat<gap reason="illegible" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> the Law of Kind (and Humanity) to be ſweetned, and encouraged; if becauſe <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſider their moral Civility, and innate Simplicity: which I hope the <hi>Engliſh</hi> Inha<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" extent="7 letters">
+                  <desc>〈7 letters〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>fortunate Southern Latitude will conſider, and mingle with ſo much Diſcretion, <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>tion of Piety, as not to contrive them Hypocrites (fatal to the Practice of <hi>New-<gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> cauſe cauſe when deſigning to convert them to <hi>Chriſtianity.</hi>
+            </p>
+            <pb facs="tcp:137351:4"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:137351:5"/>
+            <p>Here in theſe parts you may expect to meet with abundance of Navigable Ri<gap reason="illegible" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> their Soundings I ſhall particularize more in my next; as alſo of their Rivulets, <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſtaline Streams are clear and tranſparent. But their imbelliſh'd Meadows, fertil, <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ing Savana's, are guarded with pleaſant and ſolitary Woods; beſides delicious Fi<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſtures that direct to Admiration. Which to numerate, as alſo to frame a Catalog<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>rious Families of Fiſh, and their ſtore; whoſe prodigious increaſe here to inſe<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> However, ſome of them are <hi>Shad, Sturgeon</hi> and <hi>Salmon,</hi> omitting <hi>Whale,</hi> which a<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> in theſe Seas; ſo is the <hi>Seel</hi> or <hi>Selk,</hi> the <hi>Bottle-Noſe,</hi> and the <hi>Porpus,</hi> beſides many o<gap reason="illegible" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Fiſh: but the <hi>Shark</hi> to admiration, wants Courage here, as indeed all other Ra<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>tures do, for if they ſee but the Face of an Infant, they immediatly fly. Anoth<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>Drum, Porgee, Baſs, Boneto, Dolphin, Albechore, Sheepſheads, Oldwives, Catfiſh, Cav<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+               </hi> and <hi>Mullets</hi> the largeſt in <hi>America. Trout</hi> alſo they have of two foot long, be<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> the <hi>Eel,</hi> and the <hi>Perch;</hi> with ſeveral other freſh-water Fiſh omitted (without co<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Catalogue. And their Shell-fiſh are <hi>Crabbs,</hi> better than thoſe in <hi>England;</hi> but <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> have none that I hear of. However, <hi>Cockles,</hi> and <hi>Muſsles</hi> they have; and Bank<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>tains of <hi>Oyſters</hi> (and ſome with Pearl) that ſeem to barocade the Crieks. Beſide<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>Prawns</hi> and <hi>Shrimps,</hi> in the brackiſh and ſalt Waters, but <hi>Crawfiſh</hi> in the freſhes; <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>rious Entertainments, both to the Native, and fortunate Planter. But their An<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>Turtle, Bever, Otters, Manitee, Alegators,</hi> &amp;c.</p>
+            <p>And their Fleſhes are <hi>Beeves, Veals, Porks, Stagg,</hi> and <hi>Fallow Deer, Raccoons, Apoſ<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Lamb, Kid, Hare, Rabit,</hi> &amp;c. But Ravenous Creatures are <hi>Wolves, Foxes, Bears, Pan<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>
+               </hi> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> And their Venemons Creature is the <hi>Rattleſnake.</hi> Then there's Wild Fowl to <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> as <hi>Signets, Swans,</hi> and <hi>Wild Turkies</hi> of incredible weight, beſides teems of <hi>Geeſe,</hi> a<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ſorts. There is <hi>Pheaſant</hi> alſo, <hi>Cranes,</hi> and <hi>Heronſhaws,</hi> the <hi>Woodcock,</hi> and <hi>Teal,</hi> wi<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>Poot, Morefowl, Curlue,</hi> and Covies of <hi>Partridges;</hi> beſides <hi>Plover</hi> great ſtore, gre<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> There alſo are <hi>Turtle Doves, Feldivers, Sea Larks, Snade, Levericks, Widgins,</hi> and <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>berleſs; beſides the <hi>Mockbird,</hi> with diverſity and variety of <hi>Singing Birds,</hi> and ot<gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Fowl, that I cannot accompt for. Moreover, they have plenty of Dunghil Fow<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and <hi>Hen,</hi> the <hi>Gooſe,</hi> the <hi>Turkey,</hi> the <hi>Muſcovy</hi> and <hi>Engliſh Duck</hi> and <hi>Drake.</hi> Wh<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Savana's are crowded with <hi>Deer,</hi> and large and ſtately Herds of Cattel patrole t<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> as <hi>Sheep</hi> the pleaſant Paſtures; and where every Field is repleniſh'd with <hi>Corn,</hi> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>Gardens</hi> in <hi>Aſia,</hi> and <hi>Europe</hi> enriched with choice Stone Fruits; but <hi>Almon<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Aprecock-Trees, Malagatoons,</hi> and the <hi>Muſtin Plumb</hi> (the richeſt Stone Fruit in <hi>Eng<gap reason="illegible" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+               </hi> divers other Trees, as the <hi>Bone Crittongon,</hi> and the <hi>Burgamy Pear;</hi> beſides <hi>Pippi<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>mains, Golden Ruſſitins, Harvey, Lady-finger,</hi> and <hi>Red-ſtreak,</hi> with various other <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> now ſent over by the Honourable Sir <hi>Peter Colleton</hi> Bar. one of the <hi>Lords Propri<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+               </hi> ſeveral Fruit-Trees, Flowers, and Roots, by divers other able <hi>Gentlemen</hi> and <hi>M<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </hi> have already laid a Foundation in this Southern Latitude of <hi>Carolina.</hi>
+            </p>
+            <p>
+               <hi>Advertiſement.</hi> There is one Mr. <hi>Nathan Sumers</hi> Engineer for <hi>Carolina,</hi> that hath underta<gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Engine of his own] with the <hi>Lords Proprietors,</hi> and others to unburden, and clear the Ground to <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>qation at 12 Pence a Tree, if not exceeding ſix Foot Diameter; and 6 <hi>d.</hi> a Tree from one Foot to <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ches Diameter. And that the ſaid <hi>Propriators</hi> have contracted with the ſaid <hi>Sumers,</hi> to ſecure to hi<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> the ſole uſe and benefit of the ſaid Invention, for 14 years, as certifyed.</p>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>London,</hi> Printed for <hi>Joel Gaſcoin</hi> at the <hi>Plat</hi> near <hi>Wapping</hi> old Stairs, and <hi>R<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> at the Roſe and Crown in <hi>Budg-Row.</hi>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>
